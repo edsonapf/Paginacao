@@ -48,17 +48,13 @@ public class Main {
         }catch(IOException e){
             e.printStackTrace();
         }
-        
-        /*for(Integer a: referencias)
-            System.out.println(a);
-        
-        System.out.println("///////////////");*/
-        
+                
         executaAlgoritmos = new Algoritmos(qtdeQuadros, referencias);
         
         executaAlgoritmos.FIFO();
         executaAlgoritmos.OTM();
         executaAlgoritmos.LRU();
+        
     }
     
 }
