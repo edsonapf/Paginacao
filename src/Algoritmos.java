@@ -51,6 +51,9 @@ public class Algoritmos {
         return pos;
     }    
     
+    /**
+     * Ordena o array a partir da posição que foi removida
+     */
     private void ordenaQuadros(int[] quadros, int pos){
         
         for(int i=pos; i < qtde-1; i++){
@@ -147,7 +150,8 @@ public class Algoritmos {
     }
     
     /**
-     * Pegará a posição no quadro de páginas da referência que está na base da pilha. 
+     * Verifica qual a posição na lista de quadros de página
+     * da referência que está na base da pilha. 
      */
     private int posicaoBasePilha(int basePilha, int quadros[]){
         int pos = 0;
