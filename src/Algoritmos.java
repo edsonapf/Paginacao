@@ -135,7 +135,7 @@ public class Algoritmos {
                 
             }
             
-            //Se essa referência não vai ser executadas mais,
+            //Se essa referência não vai ser executada mais,
             //sua posição será retornada.
             if(naoEncontrou)
                 return i;
